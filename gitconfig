@@ -1,0 +1,27 @@
+[core]
+	excludesfile = /Users/max/.gitignore_global
+	editor = /usr/local/bin/vim
+	autocrlf = input
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.0.5.5/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = Maximilian Bode
+  email = maximilian.bode@tngtech.com
+[alias]
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative --all
+  st = status -sb
+  purr = pull --rebase
+  ready = rebase -i @{u}
+  dc = diff --cached
+  dif = diff --ignore-all-space
+  standup = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --since 'yesterday' --author Max --all
+  lastweek = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --since 'one week ago' --author Max --all
+  up = !git fetch && git rebase --autostash FETCH_HEAD
+[push]
+	default = simple
+[fetch]
+	recurseSubmodules = false
