@@ -1,12 +1,14 @@
-# Path to your oh-my-zsh installation.
-export ZSH=/Users/max/.oh-my-zsh
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-#ZSH_THEME="robbyrussell"
-ZSH_THEME="cobalt2"
+# Path to your oh-my-zsh installation.
+export ZSH=/Users/bodem/.oh-my-zsh
+
+# Set name of the theme to load. Optionally, if you set this to "random"
+# it'll load a random theme each time that oh-my-zsh is loaded.
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+#ZSH_THEME="cobalt2"
+ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -52,13 +54,13 @@ ZSH_THEME="cobalt2"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git brew brew-cask z gradle mvn vagrant docker sbt scala)
 
+source $ZSH/oh-my-zsh.sh
+
 # User configuration
 
-export PATH="Users/max/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-# export MANPATH="/usr/local/man:$MANPATH"
-# export PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"
+#. ~/z.sh
 
-source $ZSH/oh-my-zsh.sh
+# export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -74,7 +76,7 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
+# export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -84,25 +86,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# include Z
-. ~/z.sh
-
-# for homebrew
-export PATH="/usr/local/sbin:/Users/max/.local/bin:$PATH"
-
-highlights='${PREFIX:+=(#bi)(${PREFIX##*/})(?)*=00=$color[black];$color[bold]=$color[green];$color[bold]}'
-zstyle -e ':completion:*' list-colors 'reply=( "'"$highlights"'" ${(s.:.)LS_COLORS} )'
-unset highlights
-
-alias ll="ls -liah"
-
-export ANSIBLE_NOCOWS=1
-eval "$(thefuck --alias)"
-
-export GOPATH="${HOME}/.go"
-test -d "${GOPATH}" || mkdir "${GOPATH}"
-
-export PATH=$PATH:$GOPATH/bin
-
-export HOMEBREW_EDITOR=vim
