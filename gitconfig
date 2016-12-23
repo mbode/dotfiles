@@ -1,6 +1,6 @@
 [core]
 	excludesfile = /Users/max/.gitignore_global
-	editor = /usr/local/bin/vim
+	editor = vim
 	autocrlf = input
 [user]
 	name = Maximilian Bode
