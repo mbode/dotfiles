@@ -4,5 +4,4 @@
     ~/.profile: profile
     ~/.gitconfig: gitconfig
     ~/.zshrc: zshrc
-
-
+    ~/Brewfile: Brewfile
