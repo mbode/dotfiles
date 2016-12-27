@@ -11,6 +11,8 @@ brew 'docker-machine'
 brew 'libyaml'
 brew 'docker-compose'
 brew 'findutils'
+brew 'grafana'
+brew 'influxdb'
 brew 'pcre'
 brew 'pkg-config'
 brew 'homebrew/dupes/grep', args: ['with-default-names']
