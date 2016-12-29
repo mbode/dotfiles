@@ -29,6 +29,7 @@ brew 'libusb'
 brew 'npth'
 brew 'pcre'
 brew 'pinentry'
+brew 'pinentry-mac'
 brew 'pkg-config'
 brew 'sbt'
 brew 'homebrew/dupes/grep', args: ['with-default-names']
