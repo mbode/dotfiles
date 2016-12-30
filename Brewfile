@@ -39,6 +39,7 @@ brew 'homebrew/dupes/grep', args: ['with-default-names']
 brew 'homebrew/versions/gnupg21'
 cask '1password'
 cask 'atom'
+cask 'flash-npapi'
 cask 'flux'
 cask 'franz'
 cask 'freemind'
