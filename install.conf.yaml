@@ -7,4 +7,5 @@
     ~/Brewfile:
 
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
+  - [git submodule update --init --recursive, Install submodules]
+  - [./install_brew.sh, Install homebrew if not present]
