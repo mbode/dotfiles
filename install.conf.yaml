@@ -1,3 +1,8 @@
+- defaults:
+    shell:
+      stdout: true
+      stderr: true
+
 - clean: ['~']
 
 - link:
@@ -8,4 +13,8 @@
 
 - shell:
   - [git submodule update --init --recursive, Install submodules]
-  - [./install_brew.sh, Install homebrew if not present]
+  - command: [./install_brew.sh, Install homebrew if not present]
+  - command: [brew bundle, Install homebrew recipes]
+  - command: [brew update, Update homebrew recipes]
+  - command: [brew upgrade, Upgrade homebrew recipes]
+  - command: [brew cleanup, Cleanup homebrew]
