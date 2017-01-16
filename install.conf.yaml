@@ -10,6 +10,7 @@
     ~/.gitconfig:
     ~/.zshrc:
     ~/Brewfile:
+    ~/.gradle/gradle.properties: gradle.properties
 
 - shell:
   - [git submodule update --init --recursive, Install submodules]
