@@ -45,6 +45,7 @@ brew 'pkg-config'
 brew 'sqlite'
 brew 'python'
 brew 'sbt'
+brew 'thefuck'
 brew 'homebrew/dupes/grep', args: ['with-default-names']
 brew 'homebrew/versions/gnupg21'
 cask '1password'
