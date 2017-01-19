@@ -14,8 +14,9 @@
 
 - shell:
   - [git submodule update --init --recursive, Install submodules]
-  - command: [./install_brew.sh, Install homebrew if not present]
-  - command: [brew bundle, Install homebrew recipes]
-  - command: [brew update, Update homebrew recipes]
-  - command: [brew upgrade, Upgrade homebrew recipes]
-  - command: [brew cleanup, Cleanup homebrew]
+  - [./install_brew.sh, Install homebrew if not present]
+  - [brew bundle, Install homebrew recipes]
+  - [brew update, Update homebrew recipes]
+  - [brew upgrade, Upgrade homebrew recipes]
+  - [brew cleanup, Cleanup homebrew]
+  - [pip install -r requirements.txt, Install python packages]
