@@ -49,6 +49,7 @@ brew 'thefuck'
 brew 'homebrew/dupes/grep', args: ['with-default-names']
 brew 'homebrew/versions/gnupg21'
 cask '1password'
+cask 'aerial'
 cask 'atom'
 cask 'flash-npapi'
 cask 'flux'
