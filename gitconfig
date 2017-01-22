@@ -1,5 +1,6 @@
 [core]
 	editor = vim
+	excludesfile = ~/.gitignore
 [user]
 	name = Maximilian Bode
   email = maximilian.bode@tngtech.com

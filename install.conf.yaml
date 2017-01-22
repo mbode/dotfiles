@@ -8,6 +8,7 @@
 - link:
     ~/.profile:
     ~/.gitconfig:
+    ~/.gitignore:
     ~/.zshrc:
     ~/Brewfile:
     ~/.gradle/gradle.properties: gradle.properties
