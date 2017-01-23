@@ -49,6 +49,7 @@ brew 'python'
 brew 'ruby'
 brew 'sbt'
 brew 'thefuck'
+brew 'tig'
 brew 'vim'
 brew 'homebrew/dupes/grep', args: ['with-default-names']
 brew 'homebrew/versions/gnupg21'
