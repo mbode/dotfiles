@@ -3,8 +3,8 @@ export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 export JAVA_HOME=$(/usr/libexec/java_home)
 export HOMEBREW_NO_ANALYTICS=1
 
-# antibody
-source <(antibody init)
+# antigen
+source /usr/local/share/antigen/antigen.zsh
 
 # oh-my-zsh
 #export ZSH=$HOME/.oh-my-zsh
