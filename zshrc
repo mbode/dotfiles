@@ -6,7 +6,7 @@ export HOMEBREW_NO_ANALYTICS=1
 # oh-my-zsh
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
-plugins=(git brew brew-cask z gradle mvn vagrant docker sbt scala)
+plugins=(git brew brew-cask z gradle mvn vagrant docker sbt scala zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 # aliases
