@@ -51,6 +51,7 @@ brew 'sbt'
 brew 'thefuck'
 brew 'tig'
 brew 'vim'
+brew 'zsh'
 brew 'homebrew/dupes/grep', args: ['with-default-names']
 brew 'homebrew/versions/gnupg21'
 cask '1password'

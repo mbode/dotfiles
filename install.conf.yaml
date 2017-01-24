@@ -20,3 +20,5 @@
   - [brew upgrade, Upgrade homebrew recipes]
   - [brew cleanup, Cleanup homebrew]
   - [pip install -r requirements.txt, Install python packages]
+  - [sudo grep -q -F $(which zsh) /etc/shells || sudo -s echo $(which zsh) >> /etc/shells, Add zsh to whitelisted system shells]
+  - [chsh -s $(which zsh), Change login shell to zsh]
