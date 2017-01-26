@@ -10,6 +10,7 @@ antigen theme robbyrussell
 antigen bundle git
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-history-substring-search
+antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle rupa/z
 antigen apply
 
