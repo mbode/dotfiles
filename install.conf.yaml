@@ -14,11 +14,10 @@
 
 - shell:
   - [git submodule update --init --recursive, Install submodules]
-  - [./install_brew.sh, Install homebrew if not present]
+  - [./brew.sh, Install homebrew if not present]
   - [brew bundle, Install homebrew recipes]
   - [brew update, Update homebrew recipes]
   - [brew upgrade, Upgrade homebrew recipes]
   - [brew cleanup, Cleanup homebrew]
   - [pip install -r requirements.txt, Install python packages]
-  - [sudo grep -q -F $(which zsh) /etc/shells || sudo -s echo $(which zsh) >> /etc/shells, Add zsh to whitelisted system shells]
-  - [chsh -s $(which zsh), Change login shell to zsh]
+  - [./zsh.sh, Enable zsh if necessary]
