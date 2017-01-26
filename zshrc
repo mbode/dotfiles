@@ -9,6 +9,7 @@ antigen use oh-my-zsh
 antigen theme robbyrussell
 antigen bundles <<EOBUNDLES
   git
+  gradle
   web-search
   zsh-users/zsh-syntax-highlighting
   zsh-users/zsh-history-substring-search
