@@ -7,11 +7,14 @@ export HOMEBREW_NO_ANALYTICS=1
 source /usr/local/share/antigen/antigen.zsh
 antigen use oh-my-zsh
 antigen theme robbyrussell
-antigen bundle git
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle zsh-users/zsh-history-substring-search
-antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle rupa/z
+antigen bundles <<EOBUNDLES
+  git
+  web-search
+  zsh-users/zsh-syntax-highlighting
+  zsh-users/zsh-history-substring-search
+  zsh-users/zsh-autosuggestions
+  rupa/z
+EOBUNDLES
 antigen apply
 
 bindkey '\eOA' history-substring-search-up
