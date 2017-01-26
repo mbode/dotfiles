@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AlternateMouseScroll</key>
+	<true/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
 	<key>AppleScrollAnimationEnabled</key>
@@ -71,13 +73,13 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 768 620 392 0 0 2560 1417 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>232 756 796 473 0 0 2560 1417 </string>
+	<string>84 351 796 473 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-593 854 570 452 -1920 129 1920 1177 </string>
+	<string>0 414 570 452 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>218 25 570 452 0 0 2560 1417 </string>
+	<string>1548 651 570 452 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>458 279 570 452 0 0 2560 1417 </string>
+	<string>-1871 870 570 452 -1920 129 1920 1200 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1295,7 +1297,11 @@
 	<key>NoSyncInstallationId</key>
 	<string>5098DED9-3025-4B48-BD58-385764B47293</string>
 	<key>NoSyncLastTipTime</key>
-	<real>506510783.33752602</real>
+	<real>507133687.67656398</real>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -1314,6 +1320,13 @@
 		<string>0008</string>
 		<string>0009</string>
 		<string>0010</string>
+		<string>0011</string>
+		<string>0012</string>
+		<string>0013</string>
+		<string>0014</string>
+		<string>0015</string>
+		<string>0016</string>
+		<string>0017</string>
 	</array>
 	<key>PointerActions</key>
 	<dict>
@@ -1361,7 +1374,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-01-18T11:26:46Z</date>
+	<date>2017-01-25T14:54:22Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>UseLionStyleFullscreen</key>
