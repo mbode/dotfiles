@@ -5,6 +5,9 @@ export HOMEBREW_NO_ANALYTICS=1
 
 # antigen
 source /usr/local/share/antigen/antigen.zsh
+antigen use oh-my-zsh
+antigen bundle git
+antigen apply
 
 # oh-my-zsh
 #export ZSH=$HOME/.oh-my-zsh
