@@ -10,7 +10,9 @@
     ~/.gitignore:
     ~/.zshrc:
     ~/Brewfile:
-    ~/.gradle/gradle.properties: gradle.properties
+    ~/.gradle/gradle.properties:
+      path: gradle.properties
+      create: true
 
 - shell:
   - command: git submodule update --init --recursive
