@@ -13,11 +13,19 @@
     ~/.gradle/gradle.properties: gradle.properties
 
 - shell:
-  - [git submodule update --init --recursive, Install submodules]
-  - [./brew.sh, Install homebrew if not present]
-  - [brew bundle, Install homebrew recipes]
-  - [brew update, Update homebrew recipes]
-  - [brew upgrade, Upgrade homebrew recipes]
-  - [brew cleanup, Cleanup homebrew]
-  - [pip install -r requirements.txt, Install python packages]
-  - [./zsh.sh, Enable zsh if necessary]
+  - command: git submodule update --init --recursive
+    description: Install submodules
+  - command: ./brew.sh
+    description: Install homebrew if not present
+  - command: brew bundle
+    description: Install homebrew recipes
+  - command: brew update
+    description: Update homebrew recipes
+  - command: brew upgrade
+    description: Upgrade homebrew recipes
+  - command: brew cleanup
+    description: Cleanup homebrew
+  - command: pip install -r requirements.txt
+    description: Install python packages
+  - command: ./zsh.sh
+    description: Enable zsh if necessary
