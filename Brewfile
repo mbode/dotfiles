@@ -58,6 +58,7 @@ brew 'libksba'
 brew 'libtiff'
 brew 'libusb'
 brew 'm-cli'
+brew 'mas'
 brew 'maven'
 brew 'nexus'
 brew 'npth'
@@ -100,3 +101,9 @@ cask 'tunnelblick'
 cask 'vagrant'
 cask 'virtualbox'
 cask 'zoomus'
+mas 'GarageBand', id: 682658836
+mas 'iMovie', id: 408981434
+mas 'Keynote', id: 409183694
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
+mas 'Pocket', id: 568494494
