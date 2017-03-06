@@ -29,5 +29,7 @@
     description: Cleanup homebrew
   - command: pip install -r requirements.txt
     description: Install python packages
+  - command: pip3 install -r requirements3.txt
+    description: Install python3 packages
   - command: ./zsh.sh
     description: Enable zsh if necessary
