@@ -76,6 +76,7 @@ brew 'terraform'
 brew 'terragrunt'
 brew 'thefuck'
 brew 'tig'
+brew 'tree'
 brew 'vim'
 brew 'zsh'
 brew 'homebrew/dupes/grep', args: ['with-default-names']
