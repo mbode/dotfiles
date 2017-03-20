@@ -162,9 +162,9 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>2644 341 1016 502 2560 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 448 1440 429 0 0 1440 877 </string>
+	<string>2560 443 570 452 2560 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>1061 765 570 452 0 0 2560 1417 </string>
+	<string>464 375 570 452 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>49 425 570 452 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
@@ -1391,7 +1391,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>5098DED9-3025-4B48-BD58-385764B47293</string>
 	<key>NoSyncLastTipTime</key>
-	<real>509615517.93597299</real>
+	<real>511611633.219585</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1443,6 +1443,23 @@
 		<string>0037</string>
 		<string>0038</string>
 		<string>0039</string>
+		<string>0040</string>
+		<string>0041</string>
+		<string>0042</string>
+		<string>0043</string>
+		<string>0044</string>
+		<string>0045</string>
+		<string>0046</string>
+		<string>0047</string>
+		<string>0048</string>
+		<string>0049</string>
+		<string>0050</string>
+		<string>0051</string>
+		<string>0052</string>
+		<string>0053</string>
+		<string>0054</string>
+		<string>0055</string>
+		<string>0056</string>
 	</array>
 	<key>PointerActions</key>
 	<dict>
@@ -1490,14 +1507,18 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-02-13T14:18:51Z</date>
+	<date>2017-03-19T10:29:19Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>UseLionStyleFullscreen</key>
 	<true/>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
+	<key>findIgnoreCase_iTerm</key>
+	<true/>
+	<key>findRegex_iTerm</key>
+	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.13</string>
+	<string>3.0.14</string>
 </dict>
 </plist>
