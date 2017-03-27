@@ -82,6 +82,7 @@ brew 'thefuck'
 brew 'tig'
 brew 'tree'
 brew 'vim'
+brew 'watch'
 brew 'zsh'
 brew 'homebrew/dupes/grep', args: ['with-default-names']
 brew 'homebrew/science/r'
