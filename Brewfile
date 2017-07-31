@@ -1,3 +1,4 @@
+tap "buo/cask-upgrade"
 tap "caskroom/cask"
 tap "homebrew/bundle"
 tap "homebrew/core"
