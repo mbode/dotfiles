@@ -25,9 +25,5 @@
     description: Update homebrew recipes
   - command: brew upgrade
     description: Upgrade homebrew recipes
-  - command: pip2 install -r requirements2.txt
-    description: Install python packages
-  - command: pip3 install -r requirements3.txt
-    description: Install python3 packages
   - command: ./zsh.sh
     description: Enable zsh if necessary
