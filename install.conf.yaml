@@ -33,3 +33,5 @@
     description: Upgrade homebrew recipes
   - command: ./zsh.sh
     description: Enable zsh if necessary
+  - command: nix-env -i all
+    description: Install nix packages
