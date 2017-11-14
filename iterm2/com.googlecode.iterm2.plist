@@ -160,13 +160,15 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>970 768 620 392 0 0 2560 1417 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>2644 341 1016 502 2560 0 1440 900 </string>
+	<string>-1105 644 1018 447 -2560 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>2560 443 570 452 2560 0 1440 900 </string>
+	<string>-2560 1011 2560 429 -2560 0 2560 1440 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>464 375 570 452 0 0 2560 1417 </string>
+	<string>1 10 1438 860 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>49 425 570 452 0 0 2560 1417 </string>
+	<string>1465 275 1025 1115 0 0 2560 1417 </string>
+	<key>NSWindow Frame iTerm Window 3</key>
+	<string>427 208 1424 333 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1391,7 +1393,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>5098DED9-3025-4B48-BD58-385764B47293</string>
 	<key>NoSyncLastTipTime</key>
-	<real>511611633.219585</real>
+	<real>512465682.11572701</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1460,7 +1462,18 @@
 		<string>0054</string>
 		<string>0055</string>
 		<string>0056</string>
+		<string>0057</string>
+		<string>0058</string>
+		<string>0059</string>
+		<string>0060</string>
+		<string>0061</string>
+		<string>0062</string>
+		<string>0063</string>
+		<string>0064</string>
+		<string>0065</string>
 	</array>
+	<key>PerformDNSLookups</key>
+	<false/>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1507,7 +1520,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-03-19T10:29:19Z</date>
+	<date>2017-09-19T10:32:46Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>UseLionStyleFullscreen</key>
