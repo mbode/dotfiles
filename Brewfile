@@ -43,7 +43,6 @@ brew "pinentry"
 brew "gnupg"
 brew "go"
 brew "grafana"
-brew "grep", args: ["with-default-names"]
 brew "hub"
 brew "hugo"
 brew "influxdb"

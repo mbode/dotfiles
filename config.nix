@@ -7,6 +7,7 @@
       paths = [
         awscli
         git
+        gnugrep
         gradle
         kops
         nox
