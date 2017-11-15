@@ -8,6 +8,7 @@
         awscli
         git
         gradle
+        kops
         nox
       ];
     };
