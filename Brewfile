@@ -42,7 +42,6 @@ brew "npth"
 brew "pinentry"
 brew "gnupg"
 brew "go"
-brew "gradle"
 brew "grafana"
 brew "grep", args: ["with-default-names"]
 brew "hub"

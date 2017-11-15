@@ -7,6 +7,7 @@
       paths = [
         awscli
         git
+        gradle
         nox
       ];
     };
