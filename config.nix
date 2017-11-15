@@ -11,6 +11,7 @@
         gradle
         kops
         nox
+        tree
         vim
       ];
     };
