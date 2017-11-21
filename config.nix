@@ -11,6 +11,7 @@
         git
         gitAndTools.hub
         gnugrep
+        gnupg
         go
         gradle
         jq
