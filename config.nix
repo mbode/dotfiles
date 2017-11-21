@@ -13,6 +13,7 @@
         nox
         tree
         vim
+        watch
       ];
     };
   };
