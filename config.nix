@@ -17,6 +17,7 @@
         kops
         maven
         nox
+        R
         sbt
         thefuck
         tig
