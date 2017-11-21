@@ -18,6 +18,7 @@
         vim
         watch
         wget
+        zsh
       ];
     };
   };
