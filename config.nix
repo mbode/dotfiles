@@ -9,6 +9,7 @@
         bash
         exercism
         git
+        gitAndTools.hub
         gnugrep
         go
         gradle
