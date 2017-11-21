@@ -9,6 +9,7 @@
         exercism
         git
         gnugrep
+        go
         gradle
         jq
         kops
