@@ -12,6 +12,7 @@
         jq
         kops
         nox
+        sbt
         tree
         vim
         watch

@@ -60,7 +60,6 @@ brew "pkg-config"
 brew "prometheus", link: false
 brew "r"
 brew "ruby"
-brew "sbt"
 brew "spotbugs"
 brew "terraform"
 brew "terragrunt"
