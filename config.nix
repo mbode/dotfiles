@@ -9,6 +9,7 @@
         git
         gnugrep
         gradle
+        jq
         kops
         nox
         tree
