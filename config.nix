@@ -14,6 +14,7 @@
         tree
         vim
         watch
+        wget
       ];
     };
   };
