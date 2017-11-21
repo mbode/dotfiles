@@ -14,6 +14,7 @@ antigen bundles <<EOBUNDLES
   docker
   git
   gradle
+  kubectl
   pip
   web-search
   zsh-users/zsh-syntax-highlighting
@@ -30,6 +31,7 @@ bindkey '\eOB' history-substring-search-down
 # aliases
 
 eval "$(thefuck --alias)"
+alias kctl=kubectl
 
 
 # python
