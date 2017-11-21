@@ -6,6 +6,7 @@
       name = "all";
       paths = [
         awscli
+        bash
         exercism
         git
         gnugrep
