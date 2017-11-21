@@ -17,6 +17,7 @@
         nox
         sbt
         thefuck
+        tig
         tree
         vim
         watch
