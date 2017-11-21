@@ -14,6 +14,7 @@
         maven
         nox
         sbt
+        thefuck
         tree
         vim
         watch
