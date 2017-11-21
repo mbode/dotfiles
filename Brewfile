@@ -25,7 +25,6 @@ brew "docker"
 brew "docker-machine"
 brew "libyaml"
 brew "docker-compose"
-brew "exercism", link: false
 brew "findutils"
 brew "gmp"
 brew "geth"

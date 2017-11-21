@@ -6,6 +6,7 @@
       name = "all";
       paths = [
         awscli
+        exercism
         git
         gnugrep
         gradle
