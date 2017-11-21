@@ -11,6 +11,7 @@
         gradle
         jq
         kops
+        maven
         nox
         sbt
         tree

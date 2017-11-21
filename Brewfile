@@ -51,7 +51,6 @@ brew "kafka"
 brew "kubernetes-helm"
 brew "m-cli"
 brew "mas"
-brew "maven", link: false
 brew "nexus"
 brew "node"
 brew "packer"
