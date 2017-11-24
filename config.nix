@@ -18,6 +18,7 @@
         kops
         maven
         nox
+        pass
         R
         sbt
         thefuck
