@@ -21,12 +21,14 @@
         pass
         R
         sbt
+        terraform_0_10
         thefuck
         tig
         tree
         vim
         watch
         wget
+        python36Packages.yamllint
         zsh
       ];
     };
