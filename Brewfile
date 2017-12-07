@@ -29,6 +29,7 @@ brew "m-cli"
 brew "mas"
 brew "node"
 brew "openconnect", args: ["HEAD"]
+brew "openshift-cli"
 brew "packer"
 brew "pinentry-mac"
 brew "prometheus"
