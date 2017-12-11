@@ -15,6 +15,7 @@
         go
         gradle
         jq
+        kontemplate
         kops
         maven
         nox
