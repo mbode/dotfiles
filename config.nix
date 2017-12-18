@@ -14,6 +14,7 @@
         gnupg
         go
         gradle
+        graphviz
         jq
         kontemplate
         kops
