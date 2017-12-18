@@ -11,7 +11,7 @@ brew "antigen"
 brew "apache-flink"
 brew "coreutils"
 brew "docker"
-brew "docker-machine"
+brew "docker-machine", link: false
 brew "libyaml"
 brew "docker-compose"
 brew "findutils"

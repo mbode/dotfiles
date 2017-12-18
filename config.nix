@@ -7,6 +7,7 @@
       paths = [
         awscli
         bash
+        docker-machine
         exercism
         git
         gitAndTools.hub
