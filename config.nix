@@ -21,6 +21,7 @@
         kops
         maven
         nox
+        packer
         pass
         R
         sbt
