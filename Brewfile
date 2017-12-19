@@ -14,6 +14,7 @@ brew "docker"
 brew "docker-machine", link: false
 brew "libyaml"
 brew "docker-compose"
+brew "doitlive"
 brew "findutils"
 brew "gdbm"
 brew "geth"
