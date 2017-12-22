@@ -10,6 +10,8 @@
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
 	<integer>1</integer>
+	<key>AppleWindowTabbingMode</key>
+	<string>manual</string>
 	<key>Default Bookmark Guid</key>
 	<string>7A92A9AF-866A-4042-ACD1-6762D775300B</string>
 	<key>GlobalKeyMap</key>
@@ -166,13 +168,13 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>1455 644 796 473 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 448 1440 429 0 0 1440 877 </string>
+	<string>0 471 1440 429 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>332 156 570 452 0 0 2560 1440 </string>
+	<string>66 0 836 877 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>534 958 570 452 0 0 2560 1440 </string>
+	<string>0 12 1393 865 0 0 1440 900 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>-1746 587 1592 758 -2560 0 2560 1417 </string>
+	<string>0 412 570 452 0 0 1440 900 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1550,7 +1552,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-11-23T12:23:58Z</date>
+	<date>2017-12-08T14:00:12Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>UseLionStyleFullscreen</key>
@@ -1559,6 +1561,8 @@
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
