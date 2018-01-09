@@ -19,6 +19,7 @@
         go
         gradle
         graphviz
+        hugo
         jq
         kontemplate
         kops
