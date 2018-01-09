@@ -9,6 +9,7 @@
         bash
         docker-machine
         exercism
+        flink
         git
         gitAndTools.hub
         gnugrep

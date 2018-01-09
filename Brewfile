@@ -8,7 +8,6 @@ tap "pivotal/tap"
 tap "caskroom/cask"
 cask "java"
 brew "antigen"
-brew "apache-flink"
 brew "coreutils"
 brew "docker"
 brew "docker-machine", link: false
