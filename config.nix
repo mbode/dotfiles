@@ -7,6 +7,8 @@
       paths = [
         awscli
         bash
+        docker
+        docker_compose
         docker-machine
         exercism
         flink
