@@ -22,6 +22,7 @@
         jq
         kontemplate
         kops
+        kubernetes-helm
         maven
         nox
         packer
