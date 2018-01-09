@@ -7,6 +7,7 @@
       paths = [
         awscli
         bash
+        coreutils
         docker
         docker_compose
         docker-machine
