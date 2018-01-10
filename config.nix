@@ -26,6 +26,7 @@
         kops
         kubernetes-helm
         maven
+        nodejs-9_x
         nox
         packer
         pass

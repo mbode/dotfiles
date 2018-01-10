@@ -16,7 +16,6 @@ brew "kafka"
 brew "libyaml"
 brew "m-cli"
 brew "mas"
-brew "node"
 brew "openconnect", args: ["HEAD"]
 brew "readline"
 brew "openshift-cli"
