@@ -12,6 +12,7 @@
         docker_compose
         docker-machine
         exercism
+        findutils
         flink
         git
         gitAndTools.hub
