@@ -11,6 +11,7 @@
         docker
         docker_compose
         docker-machine
+        # exa # https://github.com/ogham/exa/issues/335
         exercism
         findutils
         flink
@@ -31,6 +32,7 @@
         nox
         packer
         pass
+        peco
         R
         sbt
         terraform_0_10
