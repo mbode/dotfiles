@@ -5,6 +5,7 @@
     all = with pkgs; buildEnv {
       name = "all";
       paths = [
+        antigen
         awscli
         bash
         coreutils

@@ -6,7 +6,7 @@ export HOMEBREW_NO_ANALYTICS=1
 
 # antigen
 
-source /usr/local/share/antigen/antigen.zsh
+source ~/.nix-profile/share/antigen/antigen.zsh
 antigen use oh-my-zsh
 antigen theme robbyrussell
 antigen bundles <<EOBUNDLES
