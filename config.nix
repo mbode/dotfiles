@@ -29,6 +29,7 @@
         kops
         kubernetes-helm
         maven
+        nmap
         nodejs-9_x
         nox
         packer
@@ -45,6 +46,7 @@
         vim
         watch
         wget
+        # youtube-dl
         zsh
       ];
     };
