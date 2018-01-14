@@ -33,6 +33,8 @@
         packer
         pass
         peco
+        python36Packages.virtualenvwrapper
+        python36Packages.yamllint
         R
         sbt
         terraform_0_10
@@ -42,7 +44,6 @@
         vim
         watch
         wget
-        python36Packages.yamllint
         zsh
       ];
     };
