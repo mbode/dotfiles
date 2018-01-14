@@ -1,6 +1,5 @@
 # exports
 
-export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 export JAVA_HOME=$(/usr/libexec/java_home)
 export HOMEBREW_NO_ANALYTICS=1
 
