@@ -22,6 +22,7 @@
         go
         gradle
         graphviz
+        httpie
         hugo
         jq
         kontemplate
