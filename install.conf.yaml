@@ -33,5 +33,7 @@
     description: Upgrade homebrew recipes
   - command: ./zsh.sh
     description: Enable zsh if necessary
+  - command: nix-channel --add https://nixos.org/channels/nixpkgs-unstable
+    description: add nixpkgs-unstable
   - command: nix-env -i all
     description: Install nix packages
