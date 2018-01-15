@@ -30,6 +30,7 @@
         kops
         kubernetes-helm
         maven
+        minikube
         nmap
         nodejs-9_x
         nox
