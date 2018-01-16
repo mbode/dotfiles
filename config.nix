@@ -30,10 +30,11 @@
         kops
         kubernetes-helm
         maven
-        minikube
+        # minikube
         nmap
         nodejs-9_x
         nox
+        openjdk
         packer
         pass
         peco
