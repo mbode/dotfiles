@@ -15,7 +15,6 @@ brew "kubernetes-cli"
 brew "libyaml"
 brew "m-cli"
 brew "mas"
-brew "openconnect", args: ["HEAD"]
 brew "openssl"
 brew "readline"
 brew "openshift-cli"
