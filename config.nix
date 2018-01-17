@@ -38,6 +38,7 @@
         packer
         pass
         peco
+        pipenv
         python36Packages.virtualenvwrapper
         python36Packages.yamllint
         R
