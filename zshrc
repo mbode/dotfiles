@@ -32,11 +32,3 @@ bindkey '\eOB' history-substring-search-down
 
 eval "$(thefuck --alias)"
 alias kctl=kubectl
-
-
-# python
-
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Devel
-#export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python2
-source virtualenvwrapper.sh
