@@ -5,6 +5,7 @@
     all = with pkgs; buildEnv {
       name = "all";
       paths = [
+        ansible
         antigen
         awscli
         bash
