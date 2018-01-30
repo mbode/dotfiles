@@ -17,6 +17,8 @@ antigen bundles <<EOBUNDLES
   kubectl
   pip
   web-search
+  ahmetb/kubectx
+  jonmosco/kube-ps1
   zsh-users/zsh-syntax-highlighting
   zsh-users/zsh-history-substring-search
   zsh-users/zsh-autosuggestions
@@ -27,6 +29,10 @@ antigen apply
 bindkey '\eOA' history-substring-search-up
 bindkey '\eOB' history-substring-search-down
 
+
+# kube-ps1
+
+PROMPT='$(kube_ps1)'$PROMPT
 
 # aliases
 
