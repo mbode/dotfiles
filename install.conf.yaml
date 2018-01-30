@@ -26,11 +26,7 @@
   - command: ./brew.sh
     description: Install homebrew if not present
   - command: brew bundle
-    description: Install homebrew recipes
-  - command: brew update
-    description: Update homebrew recipes
-  - command: brew upgrade
-    description: Upgrade homebrew recipes
+    description: Install and upgrade homebrew recipes
   - command: ./zsh.sh
     description: Enable zsh if necessary
   - command: nix-channel --add https://nixos.org/channels/nixpkgs-unstable
