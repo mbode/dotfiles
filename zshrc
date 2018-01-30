@@ -13,9 +13,7 @@ antigen bundles <<EOBUNDLES
   aws
   docker
   git
-  gradle
   kubectl
-  pip
   web-search
   ahmetb/kubectx
   jonmosco/kube-ps1
