@@ -22,6 +22,7 @@
         gnugrep
         gnupg
         go
+        gopass
         gradle
         graphviz
         httpie
