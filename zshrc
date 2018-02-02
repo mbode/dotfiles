@@ -17,6 +17,7 @@ antigen bundles <<EOBUNDLES
   web-search
   ahmetb/kubectx
   jonmosco/kube-ps1
+  spwhitt/nix-zsh-completions
   zsh-users/zsh-syntax-highlighting
   zsh-users/zsh-history-substring-search
   zsh-users/zsh-autosuggestions
