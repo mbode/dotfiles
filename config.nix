@@ -44,7 +44,6 @@
         python36Packages.yamllint
         R
         sbt
-        terraform_0_10
         thefuck
         tig
         tmux
