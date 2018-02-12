@@ -26,6 +26,8 @@
     description: Install submodules
   - command: ./brew.sh
     description: Install homebrew if not present
+  - command: brew update
+    description: Update homebrew
   - command: brew bundle
     description: Install and upgrade homebrew recipes
   - command: ./zsh.sh
