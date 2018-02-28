@@ -44,6 +44,7 @@
         python36Packages.yamllint
         R
         sbt
+        shellcheck
         thefuck
         tig
         tmux
