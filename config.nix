@@ -38,6 +38,7 @@
         nox
         openjdk
         packer
+        pandoc
         pass
         peco
         pipenv
