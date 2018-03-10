@@ -20,4 +20,6 @@ jobs:
         - yamllint $(git ls-files '*.yaml' '*.yml')
     - stage: dotbot
       os: osx
-      script: ./install
+      script:
+        - sed -i '' '/^mas/d' Brewfile  # remove mas-cli lines
+        - ./install
