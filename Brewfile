@@ -1,8 +1,5 @@
 tap "buo/cask-upgrade"
-tap "homebrew/dupes"
-tap "homebrew/science"
 tap "homebrew/core"
-tap "homebrew/versions"
 tap "homebrew/bundle"
 tap "pivotal/tap"
 tap "caskroom/cask"
