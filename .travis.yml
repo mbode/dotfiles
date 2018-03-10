@@ -1,13 +1,21 @@
-os: osx
+sudo: required
 
 language: bash
 
-before_install:
-  - brew install shellcheck
+services:
+  - docker
 
 jobs:
   include:
     - stage: shellcheck
-      script: shellcheck *.sh
+      script:
+        - docker pull koalaman/shellcheck
+        - find . -name '*.sh'| xargs docker run -v $(pwd):/mnt koalaman/shellcheck
+    - stage: yamllint
+      language: python
+      script:
+        - pip install yamllint
+        - yamllint $(git ls-files '*.yaml' '*.yml')
     - stage: dotbot
+      os: osx
       script: ./install
