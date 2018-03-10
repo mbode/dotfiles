@@ -1,2 +1,13 @@
 os: osx
-script: ./install
+
+language: bash
+
+before_install:
+  - brew install shellcheck
+
+jobs:
+  include:
+    - stage: shellcheck
+      script: shellcheck *.sh
+    - stage: dotbot
+      script: ./install
