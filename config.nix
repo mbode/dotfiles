@@ -45,6 +45,7 @@
         python36Packages.yamllint
         R
         sbt
+        terraform-landscape
         shellcheck
         thefuck
         tig
