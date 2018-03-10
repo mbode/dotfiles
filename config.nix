@@ -33,6 +33,7 @@
         # kubernetes-helm
         maven
         # minikube
+        nix-prefetch-git
         nmap
         nodejs-9_x
         nox
