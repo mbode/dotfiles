@@ -30,7 +30,7 @@
         jq
         kontemplate
         kops
-        kubernetes-helm
+        # kubernetes-helm
         maven
         # minikube
         nmap
