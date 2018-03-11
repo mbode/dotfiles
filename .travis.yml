@@ -25,7 +25,8 @@ jobs:
         - sed -i '' '/^mas/d' Brewfile
         # remove .zshrc link
         - sed -i '' '/~\/.zshrc:/d' install.conf.yaml
-        # remove nix installation
-        - head -n 33 install.conf.yaml > install.conf.yaml.tmp
-        - mv install.conf.yaml.tmp install.conf.yaml
+        # do not change shell on travis
+        - sed -i '' '/.\/zsh.sh/d' install.conf.yaml
+        - sed -i '' '/Enable zsh if necessary/d' install.conf.yaml
+        - export PATH="/nix/var/nix/profiles/default/bin:$PATH"
         - ./install
