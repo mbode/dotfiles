@@ -23,6 +23,8 @@ jobs:
       script:
         # remove app store installation via mas-cli
         - sed -i '' '/^mas/d' Brewfile
+        # remove .zshrc link
+        - sed -i '' '/~\/.zshrc:/d' install.conf.yaml
         # remove nix installation
         - head -n 33 install.conf.yaml > install.conf.yaml.tmp
         - mv install.conf.yaml.tmp install.conf.yaml
