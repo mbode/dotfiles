@@ -2,7 +2,7 @@
 
 export JAVA_HOME=$(readlink -e $(type -p javac) | sed  -e 's/\/bin\/javac//g')
 export HOMEBREW_NO_ANALYTICS=1
-export PATH="/usr/local/bin:$PATH"
+export PATH="$PATH:/usr/local/bin"
 
 
 # antigen
