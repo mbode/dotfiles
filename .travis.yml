@@ -21,5 +21,9 @@ jobs:
     - stage: dotbot
       os: osx
       script:
-        - sed -i '' '/^mas/d' Brewfile  # remove mas-cli lines
+        # remove app store installation via mas-cli
+        - sed -i '' '/^mas/d' Brewfile
+        # remove nix installation
+        - head -n 33 install.conf.yaml > install.conf.yaml.tmp
+        - mv install.conf.yaml.tmp install.conf.yaml
         - ./install
