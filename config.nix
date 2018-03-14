@@ -43,7 +43,7 @@
         pass
         peco
         pipenv
-        python36Packages.yamllint
+        pythonPackages.yamllint
         R
         sbt
         terraform
