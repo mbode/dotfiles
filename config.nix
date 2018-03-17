@@ -13,6 +13,7 @@
         docker
         docker_compose
         docker-machine
+        doitlive
         # exa # https://github.com/ogham/exa/issues/335
         exercism
         findutils
