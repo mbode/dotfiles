@@ -52,3 +52,4 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Pocket", id: 568494494
 mas "Things3", id: 904280696
+mas "Xcode", id: 497799835
