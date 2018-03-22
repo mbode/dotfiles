@@ -58,6 +58,7 @@
         watch
         wget
         # youtube-dl
+        yq
         zsh
       ];
     };
