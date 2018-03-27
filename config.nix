@@ -44,6 +44,7 @@
         pass
         peco
         pipenv
+        prometheus_2
         pythonPackages.yamllint
         R
         sbt
