@@ -32,7 +32,7 @@
         kontemplate
         kops
         kubectl
-        # kubernetes-helm
+        kubernetes-helm
         maven
         # minikube
         nix-prefetch-git
