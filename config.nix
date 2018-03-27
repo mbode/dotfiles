@@ -31,6 +31,7 @@
         jq
         kontemplate
         kops
+        kubectl
         # kubernetes-helm
         maven
         # minikube
