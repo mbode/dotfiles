@@ -9,6 +9,7 @@
         antigen
         awscli
         bash
+        click
         coreutils
         docker
         docker_compose
@@ -64,5 +65,8 @@
         zsh
       ];
     };
+
+    # TODO remove once https://github.com/NixOS/nixpkgs/pull/38225 is merged
+    click = callPackage ./click {};
   };
 }
