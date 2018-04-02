@@ -37,6 +37,7 @@
         maven
         # minikube
         nix-prefetch-git
+        nix-repl
         nmap
         nodejs-9_x
         nox
