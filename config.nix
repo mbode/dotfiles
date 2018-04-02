@@ -53,6 +53,7 @@
         sbt
         terraform
         terraform-landscape
+        tex
         shellcheck
         thefuck
         tig
@@ -69,5 +70,9 @@
 
     # TODO remove once https://github.com/NixOS/nixpkgs/pull/38225 is merged
     click = callPackage ./click {};
+
+    tex = texlive.combine {
+      inherit (texlive) scheme-small collection-langgerman fontawesome moderncv;
+    };
   };
 }
