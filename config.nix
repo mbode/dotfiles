@@ -50,7 +50,6 @@
         pipenv
         prometheus_2
         pythonPackages.yamllint
-        R
         sbt
         terraform
         terraform-landscape
