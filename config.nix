@@ -27,6 +27,7 @@
         gopass
         gradle
         graphviz
+        heptio-ark
         httpie
         hugo
         jq
@@ -69,7 +70,10 @@
     };
 
     # TODO remove once https://github.com/NixOS/nixpkgs/pull/38225 is merged
-    click = callPackage ./click {};
+    click = callPackage ./nixpkgs/click {};
+
+    # TODO remove once https://github.com/NixOS/nixpkgs/pull/38423 is merged
+    heptio-ark = callPackage ./nixpkgs/heptio-ark {};
 
     tex = texlive.combine {
       inherit (texlive) scheme-small collection-langgerman fontawesome moderncv;
