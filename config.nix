@@ -9,6 +9,7 @@
         antigen
         awscli
         bash
+        click
         coreutils
         docker
         docker_compose
@@ -35,7 +36,6 @@
         kubernetes-helm
         maven
         # minikube
-        my-click
         my-heptio-ark
         nix-prefetch-git
         nix-repl
@@ -67,9 +67,6 @@
         zsh
       ];
     };
-
-    # TODO remove once https://github.com/NixOS/nixpkgs/pull/38225 is merged
-    my-click = callPackage ./nixpkgs/click {};
 
     # TODO remove once https://github.com/NixOS/nixpkgs/pull/38423 is merged
     my-heptio-ark = callPackage ./nixpkgs/heptio-ark {};
