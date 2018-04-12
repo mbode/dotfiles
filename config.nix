@@ -37,6 +37,7 @@
         maven
         # minikube
         my-heptio-ark
+        my-terraform_0_11_5
         nix-prefetch-git
         nix-repl
         nmap
@@ -51,7 +52,6 @@
         prometheus_2
         pythonPackages.yamllint
         sbt
-        terraform
         terraform-landscape
         tex
         shellcheck
@@ -70,6 +70,11 @@
 
     # TODO remove once https://github.com/NixOS/nixpkgs/pull/38423 is merged
     my-heptio-ark = callPackage ./nixpkgs/heptio-ark {};
+
+    inherit (callPackage ./nixpkgs/terraform {})
+      my-terraform_0_11_5
+      my-terraform_0_11_7
+      ;
 
     tex = texlive.combine {
       inherit (texlive) scheme-small collection-langgerman fontawesome moderncv;
