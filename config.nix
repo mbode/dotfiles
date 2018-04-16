@@ -36,6 +36,7 @@
         kubernetes-helm
         maven
         # minikube
+        my-adr-tools
         my-heptio-ark
         my-terraform_0_11_5
         nix-prefetch-git
@@ -67,6 +68,9 @@
         zsh
       ];
     };
+
+    # TODO remove once https://github.com/NixOS/nixpkgs/pull/39014 is merged
+    my-adr-tools = callPackage ./nixpkgs/adr-tools {};
 
     # TODO remove once https://github.com/NixOS/nixpkgs/pull/38423 is merged
     my-heptio-ark = callPackage ./nixpkgs/heptio-ark {};
