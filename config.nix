@@ -39,6 +39,7 @@
         my-adr-tools
         my-heptio-ark
         my-terraform_0_11_5
+        mysql
         nix-prefetch-git
         nix-repl
         nmap
