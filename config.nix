@@ -52,6 +52,7 @@
         peco
         pipenv
         prometheus_2
+        prometheus-alertmanager
         pythonPackages.yamllint
         sbt
         terraform-landscape
