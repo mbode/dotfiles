@@ -22,7 +22,7 @@
         git
         gitAndTools.hub
         gnugrep
-        gnupg
+        #gnupg  # manually installed via `nix-env -i /nix/store/a09pfk5slyb7x2h5ichy6p19h40wx34a-gnupg-2.2.4`
         go
         gopass
         gradle
