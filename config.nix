@@ -11,6 +11,7 @@
         bash
         click
         coreutils
+        dep
         docker
         docker_compose
         docker-machine
