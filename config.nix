@@ -56,6 +56,7 @@
         prometheus-alertmanager
         pythonPackages.yamllint
         sbt
+        sshpass
         terraform-landscape
         tex
         shellcheck
