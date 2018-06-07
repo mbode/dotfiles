@@ -32,6 +32,7 @@
         httpie
         hugo
         jq
+        kafkacat
         kontemplate
         kops
         kubectl
