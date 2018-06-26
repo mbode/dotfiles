@@ -40,7 +40,6 @@
         maven
         # minikube
         my-adr-tools
-        #my-terraform_0_11_5
         mysql
         nix-prefetch-git
         nix-repl
@@ -74,13 +73,7 @@
       ];
     };
 
-    # TODO remove once https://github.com/NixOS/nixpkgs/pull/39014 is merged
     my-adr-tools = callPackage ./nixpkgs/adr-tools {};
-
-    inherit (callPackage ./nixpkgs/terraform {})
-      my-terraform_0_11_5
-      my-terraform_0_11_7
-      ;
 
     tex = texlive.combine {
       inherit (texlive) scheme-small collection-langgerman fontawesome moderncv;
