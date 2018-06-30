@@ -29,4 +29,5 @@ jobs:
         - sed -i '' '/.\/zsh.sh/d' install.conf.yaml
         - sed -i '' '/Enable zsh if necessary/d' install.conf.yaml
         - export PATH="/nix/var/nix/profiles/default/bin:$PATH"
+        - brew update
         - ./install
