@@ -27,8 +27,6 @@
       description: Install submodules
     - command: ./nix.sh
       description: Install nix if not present
-    - command: nix-channel --add https://nixos.org/channels/nixpkgs-unstable
-      description: add nixpkgs-unstable
     - command: nix-env -i all
       description: Install nix packages
     - command: ./zsh.sh

@@ -1,7 +1,13 @@
+let
+
+channels = import ./channels.nix;
+pkgs = channels.stable;
+
+in
 {
   allowUnfree = true;
 
-  packageOverrides = pkgs_: with pkgs_; {
+  packageOverrides = pkgs_: with pkgs_; with channels; {
     all = with pkgs; buildEnv {
       name = "all";
       paths = [
@@ -9,13 +15,13 @@
         antigen
         awscli
         bash
-        click
+        unstable.click
         coreutils
         dep
         docker
         docker_compose
         docker-machine
-        doitlive
+        unstable.doitlive
         exa
         exercism
         findutils
@@ -28,7 +34,7 @@
         gopass
         gradle
         graphviz
-        heptio-ark
+        unstable.heptio-ark
         httpie
         hugo
         jq
@@ -52,7 +58,7 @@
         pass
         peco
         pipenv
-        prometheus_2
+        unstable.prometheus_2
         prometheus-alertmanager
         pythonPackages.yamllint
         sbt
