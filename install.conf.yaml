@@ -22,9 +22,6 @@
       path: pip.conf
       create: true
 
-- brewfile:
-    - Brewfile
-
 - shell:
     - command: git submodule update --init --recursive
       description: Install submodules
@@ -36,3 +33,6 @@
       description: Install nix packages
     - command: ./zsh.sh
       description: Enable zsh if necessary
+
+- brewfile:
+    - Brewfile
