@@ -30,4 +30,6 @@ jobs:
         - sed -i '' '/Enable zsh if necessary/d' install.conf.yaml
         - export PATH="/nix/var/nix/profiles/default/bin:$PATH"
         - brew update
+        # cf. https://github.com/Homebrew/homebrew-core/issues/26358
+        - brew upgrade python
         - ./install
