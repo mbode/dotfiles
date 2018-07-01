@@ -31,4 +31,6 @@ jobs:
         - export PATH="/nix/var/nix/profiles/default/bin:$PATH"
         # cf. https://github.com/Homebrew/homebrew-core/issues/26358
         - brew upgrade python
+        # cf. https://github.com/Homebrew/homebrew-core/issues/24978
+        - brew uninstall --force mercurial; brew install mercurial
         - ./install
