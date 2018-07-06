@@ -52,7 +52,6 @@ in
         nmap
         nodejs-9_x
         nox
-        openjdk
         packer
         pandoc
         pass
