@@ -30,7 +30,7 @@ class Nix(dotbot.Plugin):
             stdin = stdout = stderr = devnull
             for package in packages_list:
                 log.info("Installing %s" % package)
-                cmd = "nix-env -f '<nixpkgs>' -iA %s" % (package)
+                cmd = "nix-env -i %s" % (package)
                 result = subprocess.call(cmd, shell=True, stdin=stdin, stdout=stdout, stderr=stderr, cwd=cwd)
                 if result != 0:
                     log.warning('Failed to install [%s]' % package)
