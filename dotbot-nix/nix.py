@@ -27,11 +27,10 @@ class Nix(dotbot.Plugin):
         cwd = self._context.base_directory()
         log = self._log
         with open(os.devnull, 'w') as devnull:
-            stdin = stdout = stderr = devnull
             for package in packages_list:
                 log.info("Installing %s" % package)
                 cmd = "nix-env -i %s" % (package)
-                result = subprocess.call(cmd, shell=True, stdin=stdin, stdout=stdout, stderr=stderr, cwd=cwd)
+                result = subprocess.call(cmd, shell=True, stdin=devnull, cwd=cwd)
                 if result != 0:
                     log.warning('Failed to install [%s]' % package)
                     return False
@@ -39,8 +38,7 @@ class Nix(dotbot.Plugin):
 
     def _bootstrap(self, cmd):
         with open(os.devnull, 'w') as devnull:
-            stdin = stdout = stderr = devnull
-            subprocess.call(cmd, shell=True, stdin=stdin, stdout=stdout, stderr=stderr,
+            subprocess.call(cmd, shell=True, stdin=devnull,
                             cwd=self._context.base_directory())
 
     def _bootstrap_nix(self):
