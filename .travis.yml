@@ -24,29 +24,26 @@ jobs:
         # remove .zshrc link
         - sed -i '' '/~\/.zshrc:/d' install.conf.yaml
         # do not change shell on travis
-        - sed -i '' '/.\/zsh.sh/d' install.conf.yaml
-        - sed -i '' '/Enable zsh if necessary/d' install.conf.yaml
+        - sed -i '' '35,37d' install.conf.yaml
+        # put nix into path
         - export PATH="/nix/var/nix/profiles/default/bin:$PATH"
         # disable homebrew
-        - sed -i '' '/brewfile/d' install.conf.yaml
+        - sed -i '' '/- brewfile:/d' install.conf.yaml
         - sed -i '' '/- Brewfile/d' install.conf.yaml
         - ./install
     - os: osx
       script:
-        # remove app store installation via mas-cli
-        - sed -i '' '/^mas/d' Brewfile
         # remove .zshrc link
         - sed -i '' '/~\/.zshrc:/d' install.conf.yaml
         # do not change shell on travis
-        - sed -i '' '/.\/zsh.sh/d' install.conf.yaml
-        - sed -i '' '/Enable zsh if necessary/d' install.conf.yaml
+        - sed -i '' '35,37d' install.conf.yaml
+        # remove app store installation via mas-cli
+        - sed -i '' '/^mas/d' Brewfile
         # cf. https://github.com/Homebrew/homebrew-core/issues/26358
         - brew upgrade python
         # cf. https://github.com/Homebrew/homebrew-core/issues/24978
         - brew uninstall --force mercurial; brew install mercurial
         # disable nix
-        - sed -i '' '/nix.sh/d' install.conf.yaml
-        - sed -i '' '/Install nix if not present/d' install.conf.yaml
-        - sed -i '' '/nix-env/d' install.conf.yaml
-        - sed -i '' '/Install nix packages/d' install.conf.yaml
+        - sed -i '' '/- nix:/d' install.conf.yaml
+        - sed -i '' '/- all/d' install.conf.yaml
         - ./install

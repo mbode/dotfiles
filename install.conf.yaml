@@ -25,12 +25,13 @@
 - shell:
     - command: git submodule update --init --recursive
       description: Install submodules
-    - command: ./nix.sh
-      description: Install nix if not present
-    - command: nix-env -i all
-      description: Install nix packages
-    - command: ./zsh.sh
-      description: Enable zsh if necessary
+
+- nix:
+    - all
 
 - brewfile:
     - Brewfile
+
+- shell:
+    - command: ./zsh.sh
+      description: Enable zsh if necessary
