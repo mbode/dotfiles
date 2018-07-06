@@ -42,7 +42,8 @@ class Nix(dotbot.Plugin):
                             cwd=self._context.base_directory())
 
     def _bootstrap_nix(self):
-        cmd = """hash nix || {{ curl https://nixos.org/nix/install | sh
+        cmd = """hash nix || {{
+              curl https://nixos.org/nix/install | sh
               . /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
               }}"""
         self._bootstrap(cmd)
