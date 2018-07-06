@@ -1,5 +1,4 @@
 tap "adoptopenjdk/openjdk"
-tap "buo/cask-upgrade"
 tap "fullscreen/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
