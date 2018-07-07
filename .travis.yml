@@ -21,10 +21,10 @@ jobs:
     - stage: dotbot
       os: osx
       script:
-        # remove .zshrc link
-        - sed -i '' '/~\/.zshrc:/d' install.conf.yaml
         # do not change shell on travis
         - sed -i '' '35,37d' install.conf.yaml
+        # remove .zshrc link
+        - sed -i '' '/~\/.zshrc:/d' install.conf.yaml
         # put nix into path
         - export PATH="/nix/var/nix/profiles/default/bin:$PATH"
         # disable homebrew
@@ -33,10 +33,10 @@ jobs:
         - ./install
     - os: osx
       script:
-        # remove .zshrc link
-        - sed -i '' '/~\/.zshrc:/d' install.conf.yaml
         # do not change shell on travis
         - sed -i '' '35,37d' install.conf.yaml
+        # remove .zshrc link
+        - sed -i '' '/~\/.zshrc:/d' install.conf.yaml
         # remove app store installation via mas-cli
         - sed -i '' '/^mas/d' Brewfile
         # cf. https://github.com/Homebrew/homebrew-core/issues/26358
