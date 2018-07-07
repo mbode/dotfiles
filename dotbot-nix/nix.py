@@ -45,5 +45,5 @@ class Nix(dotbot.Plugin):
         cmd = """hash nix || {{
               curl https://nixos.org/nix/install | sh
               . /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
-              }}"""
+              }}""".format()
         self._bootstrap(cmd)
