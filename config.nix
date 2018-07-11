@@ -46,6 +46,7 @@ in
         maven
         # minikube
         my-adr-tools
+        my-aws-rotate-key
         mysql
         nix-prefetch-git
         nix-repl
@@ -79,6 +80,8 @@ in
     };
 
     my-adr-tools = callPackage ./nixpkgs/adr-tools {};
+
+    my-aws-rotate-key = callPackage ./nixpkgs/aws-rotate-key {};
 
     tex = texlive.combine {
       inherit (texlive) scheme-small collection-langgerman fontawesome moderncv;
