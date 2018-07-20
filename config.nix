@@ -15,13 +15,11 @@ in
         antigen
         awscli
         bash
-        unstable.click
         coreutils
         dep
         docker
         docker_compose
         docker-machine
-        unstable.doitlive
         exa
         exercism
         findutils
@@ -34,7 +32,6 @@ in
         gopass
         gradle
         graphviz
-        unstable.heptio-ark
         httpie
         hugo
         jq
@@ -45,8 +42,6 @@ in
         kubernetes-helm
         maven
         # minikube
-        my-adr-tools
-        my-aws-rotate-key
         mysql
         nix-prefetch-git
         nix-repl
@@ -58,13 +53,11 @@ in
         pass
         peco
         pipenv
-        unstable.prometheus_2
         prometheus-alertmanager
         pythonPackages.yamllint
         sbt
         sshpass
         terraform-landscape
-        tex
         shellcheck
         thefuck
         tig
@@ -76,14 +69,21 @@ in
         # youtube-dl
         yq
         zsh
+
+        unstable.click
+        unstable.doitlive
+        unstable.heptio-ark
+        unstable.aws-rotate-key
+        unstable.prometheus_2
+
+        my-adr-tools
+        my-tex
       ];
     };
 
     my-adr-tools = callPackage ./nixpkgs/adr-tools {};
 
-    my-aws-rotate-key = callPackage ./nixpkgs/aws-rotate-key {};
-
-    tex = texlive.combine {
+    my-tex = texlive.combine {
       inherit (texlive) scheme-small collection-langgerman fontawesome moderncv;
     };
   };
