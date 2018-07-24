@@ -37,7 +37,6 @@ in
         jq
         kafkacat
         kontemplate
-        kops
         kubectl
         kubernetes-helm
         maven
@@ -70,10 +69,10 @@ in
         yq
         zsh
 
+        unstable.aws-rotate-key
         unstable.click
         unstable.doitlive
         unstable.heptio-ark
-        unstable.aws-rotate-key
         unstable.prometheus_2
 
         my-adr-tools
