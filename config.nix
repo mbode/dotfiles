@@ -40,7 +40,6 @@ in
         kubectl
         kubernetes-helm
         maven
-        # minikube
         mysql
         nix-prefetch-git
         nix-repl
@@ -65,7 +64,6 @@ in
         vim
         watch
         wget
-        # youtube-dl
         yq
         zsh
 
