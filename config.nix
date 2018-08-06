@@ -17,9 +17,6 @@ in
         bash
         coreutils
         dep
-        docker
-        docker_compose
-        docker-machine
         exa
         exercism
         findutils
