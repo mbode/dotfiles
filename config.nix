@@ -27,6 +27,7 @@ in
         # gnupg installed manually via nix-env -i /nix/store/vgab3j21rqp332hrdsg38iap804772hd-gnupg-2.2.8 (necessary for gopass?)
         go
         gopass
+        gource
         gradle
         graphviz
         httpie
