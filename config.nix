@@ -13,10 +13,13 @@ in
       paths = [
         ansible
         antigen
+        aws-rotate-key
         awscli
         bash
+        click
         coreutils
         dep
+        doitlive
         exa
         exercism
         findutils
@@ -30,6 +33,7 @@ in
         gource
         gradle
         graphviz
+        heptio-ark
         httpie
         hugo
         jq
@@ -40,7 +44,6 @@ in
         maven
         mysql
         nix-prefetch-git
-        nix-repl
         nmap
         nodejs-9_x
         nox
@@ -49,6 +52,7 @@ in
         pass
         peco
         pipenv
+        prometheus_2
         prometheus-alertmanager
         pythonPackages.yamllint
         sbt
@@ -64,12 +68,6 @@ in
         wget
         yq
         zsh
-
-        unstable.aws-rotate-key
-        unstable.click
-        unstable.doitlive
-        unstable.heptio-ark
-        unstable.prometheus_2
 
         my-adr-tools
         my-tex
