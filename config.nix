@@ -45,7 +45,7 @@ in
         mysql
         nix-prefetch-git
         nmap
-        nodejs-9_x
+        nodejs
         nox
         packer
         pandoc
