@@ -71,6 +71,8 @@ in
         yq
         zsh
 
+        unstable.kops
+
         my-adr-tools
         my-tex
       ];
