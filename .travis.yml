@@ -39,6 +39,8 @@ jobs:
         - sed -i '' '/~\/.zshrc:/d' install.conf.yaml
         # remove app store installation via mas-cli
         - sed -i '' '/^mas/d' Brewfile
+        # do not try installing virtualbox on travis
+        - sed -i '' '/^cask "virtualbox"$/d' Brewfile
         # cf. https://github.com/Homebrew/homebrew-core/issues/26358
         - brew upgrade python
         # cf. https://github.com/Homebrew/homebrew-core/issues/24978
