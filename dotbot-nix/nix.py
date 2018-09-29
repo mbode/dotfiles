@@ -43,7 +43,7 @@ class Nix(dotbot.Plugin):
 
     def _bootstrap_nix(self):
         cmd = """hash nix || {{
-              curl https://nixos.org/nix/install | sh
+              curl https://nixos.org/nix/install | sh -s -- --daemon
               . /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
               }}""".format()
         self._bootstrap(cmd)
