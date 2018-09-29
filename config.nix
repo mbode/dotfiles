@@ -24,6 +24,7 @@ in
         exercism
         findutils
         flink
+        ffmpeg
         git
         gitAndTools.hub
         gnugrep
