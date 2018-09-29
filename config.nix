@@ -38,6 +38,7 @@ in
         httpie
         hugo
         jq
+        jrnl
         kafkacat
         kontemplate
         kubectl
