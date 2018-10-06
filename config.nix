@@ -72,6 +72,7 @@ in
         zsh
 
         unstable.kops
+        unstable.stern
 
         my-adr-tools
         my-tex
