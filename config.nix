@@ -20,13 +20,11 @@ in
         coreutils
         dep
         doitlive
-        exa
         exercism
         findutils
         flink
         ffmpeg
         git
-        gitAndTools.hub
         gnugrep
         gnupg
         go
@@ -44,15 +42,12 @@ in
         kubectl
         kubernetes-helm
         maven
-        mysql
-        nix-prefetch-git
         nmap
         nodejs
         nox
         packer
         pandoc
         pass
-        peco
         pipenv
         prometheus_2
         prometheus-alertmanager
@@ -62,7 +57,6 @@ in
         terraform-landscape
         shellcheck
         thefuck
-        tig
         tmux
         tree
         vim
