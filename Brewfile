@@ -35,7 +35,6 @@ cask "libreoffice"
 cask "mat"
 cask "minikube"
 cask "mist"
-#cask "postbox" installed manually via `brew cask reinstall casks/postbox.rb` due to missing gpg support in postbox 6
 cask "postman"
 cask "pycharm-ce"
 cask "skype-for-business"
