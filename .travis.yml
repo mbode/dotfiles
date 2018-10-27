@@ -41,10 +41,6 @@ jobs:
         - sed -i '' '/^mas/d' Brewfile
         # do not try installing virtualbox on travis
         - sed -i '' '/^cask "virtualbox"$/d' Brewfile
-        # cf. https://github.com/Homebrew/homebrew-core/issues/26358
-        - brew upgrade python
-        # cf. https://github.com/Homebrew/homebrew-core/issues/24978
-        - brew uninstall --force mercurial; brew install mercurial
         # disable nix
         - sed -i '' '/- nix:/d' install.conf.yaml
         - sed -i '' '/- all/d' install.conf.yaml
