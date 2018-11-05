@@ -20,6 +20,7 @@ in
         coreutils
         dep
         doitlive
+        elixir
         exercism
         findutils
         flink
