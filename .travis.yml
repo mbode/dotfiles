@@ -30,7 +30,7 @@ jobs:
         # disable homebrew
         - sed -i '' '/- brewfile:/d' default.conf.yaml
         - sed -i '' '/- Brewfile/d' default.conf.yaml
-        - ./install home
+        - ./install
     - os: osx
       script:
         # do not change shell on travis
@@ -39,9 +39,10 @@ jobs:
         - sed -i '' '/~\/.zshrc:/d' default.conf.yaml
         # remove app store installation via mas-cli
         - sed -i '' '/^mas/d' Brewfile
+        - sed -i '' '/^mas/d' home/Brewfile
         # do not try installing virtualbox on travis
         - sed -i '' '/^cask "virtualbox"$/d' Brewfile
         # disable nix
         - sed -i '' '/- nix:/d' default.conf.yaml
         - sed -i '' '/- all/d' default.conf.yaml
-        - ./install
+        - ./install home
