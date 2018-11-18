@@ -1,6 +1,6 @@
 # exports
 
-export JAVA_HOME=$(brew --cellar adoptopenjdk-openjdk8)/$(brew list --versions adoptopenjdk-openjdk8 | tr ' ' '\n' | tail -1)
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
 export HOMEBREW_NO_ANALYTICS=1
 export PATH="$PATH:/usr/local/bin"
 
