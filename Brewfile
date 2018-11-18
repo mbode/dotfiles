@@ -10,7 +10,6 @@ brew "pinentry-mac"
 brew "tfenv"
 brew "pivotal/tap/springboot"
 cask "1password"
-cask "adoptopenjdk8"
 cask "aerial"
 cask "anki"
 cask "atom"
@@ -41,6 +40,7 @@ cask "visual-studio-code"
 cask "vlc"
 cask "xquartz"
 cask "zoomus"
+cask "adoptopenjdk/openjdk/adoptopenjdk8"
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694

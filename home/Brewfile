@@ -1,0 +1,13 @@
+brew "youtube-dl"
+cask "calibre"
+cask "cliqz"
+cask "dropbox"
+cask "electrum"
+cask "evernote"
+cask "jdownloader"
+cask "pdfsam-basic"
+cask "ynab"
+mas "Mimeo Photos", id: 1282504627
+mas "WISO steuer 2016", id: 1008157506
+mas "WISO steuer 2017", id: 1127370416
+mas "WISO steuer 2018", id: 1252661390

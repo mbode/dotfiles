@@ -30,7 +30,7 @@ jobs:
         # disable homebrew
         - sed -i '' '/- brewfile:/d' install.conf.yaml
         - sed -i '' '/- Brewfile/d' install.conf.yaml
-        - ./install
+        - ./install home
     - os: osx
       script:
         # do not change shell on travis
