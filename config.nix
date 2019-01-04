@@ -33,7 +33,6 @@ in
         gource
         gradle
         graphviz
-        heptio-ark
         httpie
         hugo
         jq
