@@ -50,7 +50,6 @@ in
         pandoc
         pass
         pipenv
-        prometheus_2
         prometheus-alertmanager
         pythonPackages.yamllint
         sbt
