@@ -48,7 +48,6 @@ in
         packer
         pandoc
         pass
-        pipenv
         prometheus-alertmanager
         pythonPackages.yamllint
         sbt
