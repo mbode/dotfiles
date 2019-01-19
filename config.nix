@@ -10,13 +10,7 @@ in
   packageOverrides = pkgs_: with pkgs_; with channels; {
     all = with pkgs; buildEnv {
       name = "all";
-      paths = [
-        my-tex
-      ];
-    };
-
-    my-tex = texlive.combine {
-      inherit (texlive) scheme-small collection-langgerman fontawesome moderncv;
+      paths = [ ];
     };
   };
 }
