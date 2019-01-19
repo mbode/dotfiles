@@ -63,7 +63,6 @@ in
         yq
         zsh
 
-        unstable.kops
         unstable.stern
 
         my-adr-tools
