@@ -11,8 +11,6 @@ in
     all = with pkgs; buildEnv {
       name = "all";
       paths = [
-        prometheus-alertmanager
-
         my-tex
       ];
     };
