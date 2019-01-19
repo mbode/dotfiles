@@ -15,7 +15,6 @@ in
         ffmpeg
         kontemplate
         nox
-        pandoc
         pass
         prometheus-alertmanager
         pythonPackages.yamllint
