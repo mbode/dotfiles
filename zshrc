@@ -2,7 +2,7 @@
 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
 export HOMEBREW_NO_ANALYTICS=1
-export PATH="$PATH:/usr/local/bin"
+export PATH="/usr/local/opt/grep/libexec/gnubin:$PATH:/usr/local/bin"
 
 
 # antigen
