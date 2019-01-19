@@ -17,7 +17,6 @@ in
         httpie
         hugo
         kontemplate
-        maven
         nmap
         nodejs
         nox
