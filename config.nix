@@ -16,7 +16,6 @@ in
         graphviz
         httpie
         hugo
-        jrnl
         kafkacat
         kontemplate
         kubectl
