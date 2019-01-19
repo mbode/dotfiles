@@ -14,7 +14,6 @@ in
         ffmpeg
         nox
         prometheus-alertmanager
-        zsh
 
         my-tex
       ];
