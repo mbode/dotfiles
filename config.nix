@@ -16,7 +16,6 @@ in
         kontemplate
         nox
         prometheus-alertmanager
-        tree
         vim
         watch
         wget
