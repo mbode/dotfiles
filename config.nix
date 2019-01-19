@@ -17,7 +17,6 @@ in
         httpie
         hugo
         kontemplate
-        kubernetes-helm
         maven
         nmap
         nodejs
