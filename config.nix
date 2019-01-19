@@ -18,12 +18,9 @@ in
         prometheus-alertmanager
         zsh
 
-        my-adr-tools
         my-tex
       ];
     };
-
-    my-adr-tools = callPackage ./nixpkgs/adr-tools {};
 
     my-tex = texlive.combine {
       inherit (texlive) scheme-small collection-langgerman fontawesome moderncv;
