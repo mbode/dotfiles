@@ -16,7 +16,6 @@ in
         kontemplate
         nox
         prometheus-alertmanager
-        wget
         yq
         zsh
 
