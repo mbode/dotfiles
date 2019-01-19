@@ -1,3 +1,4 @@
+brew "tectonic"
 brew "youtube-dl"
 cask "calibre"
 cask "cliqz"
