@@ -13,7 +13,6 @@ in
       paths = [
         aws-rotate-key
         ffmpeg
-        hugo
         kontemplate
         nmap
         nodejs
