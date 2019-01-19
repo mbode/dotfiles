@@ -16,7 +16,6 @@ in
         graphviz
         httpie
         hugo
-        jq
         jrnl
         kafkacat
         kontemplate
