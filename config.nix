@@ -16,7 +16,6 @@ in
         kontemplate
         nox
         prometheus-alertmanager
-        tmux
         tree
         vim
         watch
