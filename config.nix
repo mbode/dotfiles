@@ -12,7 +12,6 @@ in
       name = "all";
       paths = [
         aws-rotate-key
-        flink
         ffmpeg
         git
         gnugrep
