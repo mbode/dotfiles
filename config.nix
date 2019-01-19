@@ -12,7 +12,6 @@ in
       name = "all";
       paths = [
         aws-rotate-key
-        awscli
         bash
         click
         coreutils
