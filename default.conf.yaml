@@ -15,9 +15,6 @@
     ~/.gradle/gradle.properties:
       path: gradle.properties
       create: true
-    ~/.config/nixpkgs/config.nix:
-      path: config.nix
-      create: true
     ~/Library/Application Support/pip/pip.conf:
       path: pip.conf
       create: true
@@ -25,9 +22,6 @@
 - shell:
     - command: git submodule update --init --recursive
       description: Install submodules
-
-- nix:
-    - all
 
 - brewfile:
     - Brewfile

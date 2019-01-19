@@ -22,19 +22,7 @@ jobs:
       os: osx
       script:
         # do not change shell on travis
-        - sed -i '' '35,37d' default.conf.yaml
-        # remove .zshrc link
-        - sed -i '' '/~\/.zshrc:/d' default.conf.yaml
-        # put nix into path
-        - export PATH="/nix/var/nix/profiles/default/bin:$PATH"
-        # disable homebrew
-        - sed -i '' '/- brewfile:/d' default.conf.yaml
-        - sed -i '' '/- Brewfile/d' default.conf.yaml
-        - ./install
-    - os: osx
-      script:
-        # do not change shell on travis
-        - sed -i '' '35,37d' default.conf.yaml
+        - sed -i '' '32,34d' default.conf.yaml
         # remove .zshrc link
         - sed -i '' '/~\/.zshrc:/d' default.conf.yaml
         # remove app store installation via mas-cli
@@ -42,7 +30,4 @@ jobs:
         - sed -i '' '/^mas/d' home/Brewfile
         # do not try installing virtualbox on travis
         - sed -i '' '/^cask "virtualbox"$/d' Brewfile
-        # disable nix
-        - sed -i '' '/- nix:/d' default.conf.yaml
-        - sed -i '' '/- all/d' default.conf.yaml
         - ./install home

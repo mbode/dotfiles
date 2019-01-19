@@ -12,4 +12,3 @@ Usage: `git clone --recurse-submodules git@github.com:mbode/dotfiles.git ~/dotfi
 * [homebrew](https://brew.sh/)
     * [dotbot-brew](https://github.com/d12frosted/dotbot-brew)
     * [homebrew-bundle](https://github.com/Homebrew/homebrew-bundle)
-* [nix](https://nixos.org/nix/)
