@@ -16,7 +16,6 @@ in
         kontemplate
         nox
         prometheus-alertmanager
-        sbt
         sshpass
         terraform-landscape
         shellcheck
