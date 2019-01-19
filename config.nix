@@ -11,7 +11,6 @@ in
     all = with pkgs; buildEnv {
       name = "all";
       paths = [
-        ffmpeg
         nox
         prometheus-alertmanager
 
