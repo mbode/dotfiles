@@ -11,7 +11,6 @@ in
     all = with pkgs; buildEnv {
       name = "all";
       paths = [
-        antigen
         aws-rotate-key
         awscli
         bash
