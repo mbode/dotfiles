@@ -15,7 +15,6 @@ in
         ffmpeg
         kontemplate
         nox
-        pass
         prometheus-alertmanager
         pythonPackages.yamllint
         sbt
