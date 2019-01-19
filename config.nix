@@ -16,7 +16,6 @@ in
         kontemplate
         nox
         prometheus-alertmanager
-        yq
         zsh
 
         unstable.stern
