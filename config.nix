@@ -16,7 +16,6 @@ in
         graphviz
         httpie
         hugo
-        kafkacat
         kontemplate
         kubectl
         kubernetes-helm
