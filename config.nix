@@ -16,7 +16,6 @@ in
         kontemplate
         nox
         prometheus-alertmanager
-        terraform-landscape
         shellcheck
         thefuck
         tmux
