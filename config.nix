@@ -13,7 +13,6 @@ in
       paths = [
         aws-rotate-key
         coreutils
-        dep
         doitlive
         elixir
         exercism
