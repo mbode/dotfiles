@@ -13,7 +13,6 @@ in
       paths = [
         aws-rotate-key
         ffmpeg
-        gradle
         graphviz
         httpie
         hugo
