@@ -12,7 +12,6 @@ in
       name = "all";
       paths = [
         aws-rotate-key
-        click
         coreutils
         dep
         doitlive
