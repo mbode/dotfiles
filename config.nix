@@ -18,8 +18,6 @@ in
         prometheus-alertmanager
         zsh
 
-        unstable.stern
-
         my-adr-tools
         my-tex
       ];
