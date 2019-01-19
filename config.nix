@@ -14,7 +14,6 @@ in
         aws-rotate-key
         ffmpeg
         kontemplate
-        nmap
         nodejs
         nox
         packer
