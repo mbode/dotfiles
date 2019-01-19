@@ -13,7 +13,6 @@ in
       paths = [
         aws-rotate-key
         ffmpeg
-        git
         gnugrep
         gnupg
         go
