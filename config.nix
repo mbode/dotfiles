@@ -12,7 +12,6 @@ in
       name = "all";
       paths = [
         ffmpeg
-        kontemplate
         nox
         prometheus-alertmanager
         zsh
