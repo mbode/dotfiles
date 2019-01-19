@@ -15,7 +15,6 @@ in
         ffmpeg
         kontemplate
         nox
-        packer
         pandoc
         pass
         prometheus-alertmanager
