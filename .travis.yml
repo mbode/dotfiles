@@ -22,7 +22,7 @@ jobs:
       os: osx
       script:
         # do not change shell on travis
-        - sed -i '' '32,34d' default.conf.yaml
+        - sed -i '' '29,31d' default.conf.yaml
         # remove .zshrc link
         - sed -i '' '/~\/.zshrc:/d' default.conf.yaml
         # remove app store installation via mas-cli
