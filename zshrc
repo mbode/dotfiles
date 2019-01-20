@@ -37,3 +37,5 @@ PROMPT='$(kube_ps1)'$PROMPT
 
 eval "$(thefuck --alias)"
 alias kctl=kubectl
+
+eval "$(jira --completion-script-zsh)"
