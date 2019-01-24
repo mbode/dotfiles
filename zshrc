@@ -32,7 +32,7 @@ bindkey '\eOB' history-substring-search-down
 
 # kube-ps1
 
-PROMPT='$(kube_ps1)'$PROMPT
+PROMPT='$(kube_ps1)''$FG[045]$(tf_prompt_info)'$PROMPT
 
 # aliases
 
