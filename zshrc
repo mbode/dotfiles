@@ -15,6 +15,7 @@ antigen bundles <<EOBUNDLES
   docker
   git
   kubectl
+  terraform
   web-search
   ahmetb/kubectx
   jonmosco/kube-ps1
