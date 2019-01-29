@@ -9,7 +9,7 @@ export PATH="$HOME/bin:/usr/local/opt/grep/libexec/gnubin:$PATH:/usr/local/bin"
 
 source /usr/local/share/antigen/antigen.zsh
 antigen use oh-my-zsh
-antigen theme robbyrussell
+antigen theme denysdovhan/spaceship-prompt
 antigen bundles <<EOBUNDLES
   aws
   docker
@@ -28,13 +28,6 @@ antigen apply
 
 bindkey '\eOA' history-substring-search-up
 bindkey '\eOB' history-substring-search-down
-
-
-# kube-ps1
-
-PROMPT='$(kube_ps1)''$FG[045]$(tf_prompt_info)'$PROMPT
-
-# aliases
 
 eval "$(thefuck --alias)"
 alias kctl=kubectl
