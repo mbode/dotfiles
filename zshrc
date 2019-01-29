@@ -13,7 +13,7 @@ antigen theme denysdovhan/spaceship-prompt
 antigen bundles <<EOBUNDLES
   aws
   docker
-  git
+  gitfast
   kubectl
   terraform
   web-search
