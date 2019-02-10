@@ -11,6 +11,7 @@
     ~/.gitconfig:
     ~/.gitignore:
     ~/.jrnl_config:
+    ~/.tmux.conf:
     ~/.zshrc:
     ~/.gradle/gradle.properties:
       path: gradle.properties
