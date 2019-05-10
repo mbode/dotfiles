@@ -1,4 +1,3 @@
-tap "adoptopenjdk/openjdk"
 tap "fullscreen/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -12,7 +11,6 @@ tap "zaquestion/tap"
 brew "adr-tools"
 brew "ansible"
 brew "antigen"
-brew "ark"
 brew "awscli"
 brew "coreutils"
 brew "go"
@@ -60,6 +58,7 @@ brew "terraform_landscape"
 brew "tfenv"
 brew "thefuck"
 brew "tmux"
+brew "velero"
 brew "vim"
 brew "watch"
 brew "wget"
@@ -72,6 +71,7 @@ brew "weaveworks/tap/eksctl"
 brew "zaquestion/tap/lab"
 cask "1password"
 cask "adobe-acrobat-reader"
+cask "adoptopenjdk8"
 cask "aerial"
 cask "anki"
 cask "aws-vault"
@@ -109,12 +109,11 @@ cask "visual-studio-code"
 cask "vlc"
 cask "xquartz"
 cask "zoomus"
-cask "adoptopenjdk/openjdk/adoptopenjdk8"
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Pocket", id: 568494494
-mas "Things3", id: 904280696
-mas "Xcode", id: 497799835
+mas "com.apple.dt.Xcode", id: 497799835
+mas "com.apple.garageband10", id: 682658836
+mas "com.apple.iMovieApp", id: 408981434
+mas "com.apple.iWork.Keynote", id: 409183694
+mas "com.apple.iWork.Numbers", id: 409203825
+mas "com.apple.iWork.Pages", id: 409201541
+mas "com.culturedcode.ThingsMac", id: 904280696
+mas "com.readitlater.PocketMac", id: 568494494
