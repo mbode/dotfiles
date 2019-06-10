@@ -6,6 +6,7 @@ cask "dropbox"
 cask "electrum"
 cask "evernote"
 cask "jdownloader"
+cask "ledger-live"
 cask "pdfsam-basic"
 cask "ynab"
 mas "Mimeo Photos", id: 1282504627
