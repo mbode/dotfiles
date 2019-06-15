@@ -1,7 +1,6 @@
 tap "fullscreen/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
-tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "pivotal/tap"
 tap "tazjin/kontemplate", "https://github.com/tazjin/kontemplate"
