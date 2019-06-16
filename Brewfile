@@ -1,3 +1,4 @@
+tap "adoptopenjdk/openjdk"
 tap "fullscreen/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
