@@ -1,6 +1,7 @@
 tap "fullscreen/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "weaveworks/tap"
 brew "adr-tools"
