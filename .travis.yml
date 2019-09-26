@@ -11,7 +11,7 @@ jobs:
     - stage: shellcheck
       script:
         - docker pull koalaman/shellcheck
-        - find . -name '*.sh' |
+        - find . -name '*.sh' -not -path './tmux/*' |
           xargs docker run -v $(pwd):/mnt koalaman/shellcheck
     - stage: yamllint
       language: python
