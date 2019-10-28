@@ -107,11 +107,11 @@ cask "visual-studio-code"
 cask "vlc"
 cask "xquartz"
 cask "zoomus"
-mas "com.apple.dt.Xcode", id: 497799835
-mas "com.apple.garageband10", id: 682658836
-mas "com.apple.iMovieApp", id: 408981434
-mas "com.apple.iWork.Keynote", id: 409183694
-mas "com.apple.iWork.Numbers", id: 409203825
-mas "com.apple.iWork.Pages", id: 409201541
-mas "com.culturedcode.ThingsMac", id: 904280696
-mas "com.readitlater.PocketMac", id: 568494494
+mas "Amphetamine", id: 937984704
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Word", id: 462054704
+mas "Things", id: 904280696
+mas "Xcode", id: 497799835
