@@ -20,6 +20,7 @@ jobs:
         - yamllint $(git ls-files '*.yaml' '*.yml')
     - stage: dotbot
       os: osx
+      osx_image: xcode11
       script:
         # do not change shell on travis
         - sed -i '' '31,33d' default.conf.yaml
