@@ -4,9 +4,9 @@
 	autocrlf = input
 [user]
 	name = Maximilian Bode
-        email = maximilian.bode@tngtech.com
+    email = maximilian.bode@tngtech.com
 [alias]
-        lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative --all
-        ready = rebase -i @{u}
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative --all
+    ready = rebase -i @{u}
 [rebase]
 	autoStash = true
