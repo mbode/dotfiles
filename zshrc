@@ -14,7 +14,6 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 source /usr/local/share/antigen/antigen.zsh
 antigen use oh-my-zsh
-antigen theme denysdovhan/spaceship-prompt
 antigen bundles <<EOBUNDLES
   aws
   docker
@@ -39,3 +38,5 @@ eval "$(thefuck --alias)"
 alias kctl=kubectl
 
 eval "$(jira --completion-script-zsh)"
+
+eval "$(starship init zsh)"
