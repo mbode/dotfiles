@@ -1,2 +1,5 @@
 [aws]
 displayed_items = "profile"
+
+[memory_usage]
+disabled = false
