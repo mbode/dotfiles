@@ -5,7 +5,9 @@ export HOMEBREW_NO_ANALYTICS=1
 export GOPATH="$HOME/go"
 export PATH="$HOME/bin:/usr/local/opt/grep/libexec/gnubin:/usr/local/opt/gnu-sed/libexec/gnubin:/usr/local/opt/python/libexec/bin:$PATH:/usr/local/bin:$GOPATH/bin"
 export AWS_VAULT_BACKEND=keychain
-export SPACESHIP_TIME_SHOW=true
+
+export SHOW_AWS_PROMPT=false
+
 export WORKON_HOME=~/.virtualenvs
 mkdir -p $WORKON_HOME
 source /usr/local/bin/virtualenvwrapper.sh
