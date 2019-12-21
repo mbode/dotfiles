@@ -21,6 +21,8 @@
       path: pip.conf
       create: true
     ~/.config/starship.toml:
+    ~/Library/Application Support/Code/User/settings.json:
+      path: VSCode/settings.json
 
 - shell:
     - command: git submodule update --init --recursive
