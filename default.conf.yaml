@@ -23,6 +23,7 @@
     ~/.config/starship.toml:
     ~/Library/Application Support/Code/User/settings.json:
       path: VSCode/settings.json
+      create: true
 
 - shell:
     - command: git submodule update --init --recursive
