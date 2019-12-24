@@ -22,8 +22,6 @@ jobs:
       os: osx
       osx_image: xcode11
       script:
-        # remove .zshrc link
-        - sed -i '' '/~\/.zshrc:/d' default.conf.yaml
         # do not set shell on travis
         - echo '' > zsh.sh
         # remove app store installation via mas-cli
@@ -31,5 +29,5 @@ jobs:
         - sed -i '' '/^mas/d' home/Brewfile
         # do not try installing virtualbox on travis
         - sed -i '' '/^cask "virtualbox"$/d' Brewfile
-        - rm ~/.gitconfig
+        - rm ~/.gitconfig ~/.zshrc
         - ./install home
