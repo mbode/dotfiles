@@ -24,6 +24,8 @@ jobs:
       script:
         # remove .zshrc link
         - sed -i '' '/~\/.zshrc:/d' default.conf.yaml
+        # do not set shell on travis
+        - echo '' > zsh.sh
         # remove app store installation via mas-cli
         - sed -i '' '/^mas/d' Brewfile
         - sed -i '' '/^mas/d' home/Brewfile
