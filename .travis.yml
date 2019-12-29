@@ -30,4 +30,5 @@ jobs:
         # do not try installing virtualbox on travis
         - sed -i '' '/^cask "virtualbox"$/d' Brewfile
         - rm ~/.gitconfig
+        - brew unlink python@2
         - ./install home
