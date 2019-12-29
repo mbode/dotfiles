@@ -29,5 +29,5 @@ jobs:
         - sed -i '' '/^mas/d' home/Brewfile
         # do not try installing virtualbox on travis
         - sed -i '' '/^cask "virtualbox"$/d' Brewfile
-        - rm ~/.gitconfig ~/.zshrc
+        - rm ~/.gitconfig
         - ./install home
