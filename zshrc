@@ -39,6 +39,7 @@ bindkey '\eOB' history-substring-search-down
 eval "$(thefuck --alias)"
 alias kctl=kubectl
 alias l='lsd -lA'
+alias b=bat
 
 eval "$(jira --completion-script-zsh)"
 
