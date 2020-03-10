@@ -21,6 +21,7 @@ antigen bundles <<EOBUNDLES
   docker
   git
   gitfast
+  httpie
   kubectl
   terraform
   web-search
