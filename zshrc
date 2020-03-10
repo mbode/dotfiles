@@ -45,3 +45,6 @@ alias b=bat
 eval "$(jira --completion-script-zsh)"
 
 eval "$(starship init zsh)"
+
+# Created by `userpath` on 2020-01-13 07:09:44
+export PATH="$PATH:/Users/bodem/.local/bin"
