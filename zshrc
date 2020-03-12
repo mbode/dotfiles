@@ -49,6 +49,5 @@ eval "$(starship init zsh)"
 # Created by `userpath` on 2020-01-13 07:09:44
 export PATH="$PATH:/Users/bodem/.local/bin"
 
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
