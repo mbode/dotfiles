@@ -26,6 +26,7 @@ antigen bundles <<EOBUNDLES
   terraform
   web-search
   ahmetb/kubectx
+  jimhester/per-directory-history
   jonmosco/kube-ps1
   zsh-users/zsh-syntax-highlighting
   zsh-users/zsh-history-substring-search
