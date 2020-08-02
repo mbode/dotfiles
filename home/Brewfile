@@ -1,5 +1,6 @@
 brew "tectonic"
 brew "youtube-dl"
+cask "adobe-digital-editions"
 cask "calibre"
 cask "cliqz"
 cask "dropbox"
