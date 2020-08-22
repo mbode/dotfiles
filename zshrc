@@ -8,10 +8,6 @@ export AWS_VAULT_BACKEND=keychain
 
 export SHOW_AWS_PROMPT=false
 
-export WORKON_HOME=~/.virtualenvs
-mkdir -p $WORKON_HOME
-source /usr/local/bin/virtualenvwrapper.sh
-
 # antigen
 
 source /usr/local/share/antigen/antigen.zsh
