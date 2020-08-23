@@ -113,7 +113,6 @@ cask "osxfuse"  # necessary for veracrypt
 cask "postman"
 cask "slack"
 cask "spotify"
-cask "steam"
 cask "tunnelblick"
 cask "vagrant"
 cask "veracrypt"
