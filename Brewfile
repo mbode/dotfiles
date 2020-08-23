@@ -112,6 +112,7 @@ cask "joplin"
 cask "keepassx"
 cask "libreoffice"
 cask "microsoft-teams"
+cask "osxfuse"  # necessary for veracrypt
 cask "postman"
 cask "skitch"
 cask "slack"
