@@ -91,38 +91,22 @@ cask "aws-vault"
 cask "carbon-copy-cloner"
 cask "chromium"
 cask "docker"
-cask "drawio"
 cask "evernote"
 cask "ferdi"
 cask "firefox"
 cask "font-fira-code-nerd-font"
 cask "font-fontawesome"
-cask "freeplane"
 cask "google-chrome"
-cask "google-cloud-sdk"
-cask "gpg-suite"
 cask "grandperspective"
 cask "inkscape"
 cask "intellij-idea"
 cask "iterm2"
-cask "joplin"
-cask "keepassx"
 cask "libreoffice"
-cask "microsoft-teams"
 cask "osxfuse"  # necessary for veracrypt
-cask "postman"
-cask "slack"
 cask "spotify"
-cask "tunnelblick"
-cask "vagrant"
 cask "veracrypt"
 cask "visual-studio-code"
 cask "vlc"
 cask "xquartz"
-cask "zoomus"
 mas "Amphetamine", id: 937984704
-mas "Microsoft Excel", id: 462058435
-mas "Microsoft PowerPoint", id: 462062816
-mas "Microsoft Word", id: 462054704
 mas "Things", id: 904280696
-mas "Xcode", id: 497799835
