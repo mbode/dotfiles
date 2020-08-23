@@ -15,21 +15,25 @@ jobs:
     - uses: actions/checkout@v2
       with:
         submodules: "recursive"
+    - name: Prepare for CI
+      run: |
+        echo '' > zsh.sh
+        sed -i '' '/^mas/d' Brewfile
     - name: Execute base install
       run:  ./install
-  home:
-    runs-on: macOS-latest
-    steps:
-    - uses: actions/checkout@v2
-      with:
-        submodules: "recursive"
-    - name: Execute home install
-      run:  ./install hom
-  work:
-    runs-on: macOS-latest
-    steps:
-    - uses: actions/checkout@v2
-      with:
-        submodules: "recursive"
-    - name: Execute work install
-      run:  ./install work
+  # home:
+  #   runs-on: macOS-latest
+  #   steps:
+  #   - uses: actions/checkout@v2
+  #     with:
+  #       submodules: "recursive"
+  #   - name: Execute home install
+  #     run:  ./install hom
+  # work:
+  #   runs-on: macOS-latest
+  #   steps:
+  #   - uses: actions/checkout@v2
+  #     with:
+  #       submodules: "recursive"
+  #   - name: Execute work install
+  #     run:  ./install work
