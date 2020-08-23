@@ -8,7 +8,6 @@ cask "electrum"
 cask "jdownloader"
 cask "ledger-live"
 cask "pdfsam-basic"
-cask "ynab"
 mas "Mimeo Photos", id: 1282504627
 mas "WISO steuer 2016", id: 1008157506
 mas "WISO steuer 2017", id: 1127370416
