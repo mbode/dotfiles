@@ -1,5 +1,7 @@
 # exports
 
+setopt HIST_IGNORE_SPACE
+
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
 export HOMEBREW_NO_ANALYTICS=1
 export GOPATH="$HOME/go"
