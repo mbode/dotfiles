@@ -7,10 +7,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: shellcheck
-      uses: ludeeus/action-shellcheck@master
+    - name: sh-checker
+      uses: luizm/action-sh-checker@v0.1.4
+      #env:
+      #  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #  SHELLCHECK_OPTS: -e SC1004 # It is posible to exclude some shellcheck warnings.
       with:
-        ignore: zshrc
+        sh_checker_comment: false
+        #sh_checker_exclude: ".terraform ^dir/example.sh"
   base:
     runs-on: macOS-latest
     steps:
