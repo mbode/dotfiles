@@ -4,7 +4,7 @@ Usage: `git clone --recurse-submodules git@github.com:mbode/dotfiles.git ~/dotfi
 
 ---
 
-[![Build Status](https://travis-ci.org/mbode/dotfiles.svg?branch=master)](https://travis-ci.org/mbode/dotfiles)
+[![Actions Status](https://github.com/mbode/dotfiles/workflows/dotfiles/badge.svg)](https://github.com/mbode/dotfiles/actions)
 
 ## Built with
 
