@@ -19,6 +19,7 @@ jobs:
       run: |
         echo '' > zsh.sh
         sed -i '' '/^mas/d' Brewfile
+        brew unlink node@12
     - name: Execute base install
       run:  ./install
   # home:
