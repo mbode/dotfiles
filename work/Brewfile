@@ -1,3 +1,5 @@
+tap "weaveworks/tap"
+brew "weaveworks/tap/eksctl"
 cask "drawio"
 cask "freeplane"
 cask "google-cloud-sdk"
