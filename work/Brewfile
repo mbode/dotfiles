@@ -11,7 +11,7 @@ cask "postman"
 cask "slack"
 cask "tunnelblick"
 cask "vagrant"
-cask "zoomus"
+cask "zoom"
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
