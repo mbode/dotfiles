@@ -13,5 +13,7 @@ jobs:
       run: |
         echo '' > zsh.sh
         sed -i '' '/^mas/d' Brewfile
+        rm '/usr/local/bin/aws'
+        brew unlink go@1.15
     - name: Execute base install
       run:  ./install
