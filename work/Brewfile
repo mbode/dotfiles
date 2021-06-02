@@ -1,16 +1,11 @@
-tap "weaveworks/tap"
-brew "weaveworks/tap/eksctl"
 cask "drawio"
 cask "freeplane"
-cask "google-cloud-sdk"
 cask "gpg-suite"
 cask "joplin"
 cask "keepassx"
 cask "microsoft-teams"
-cask "postman"
 cask "slack"
 cask "tunnelblick"
-cask "vagrant"
 cask "zoom"
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft PowerPoint", id: 462062816
