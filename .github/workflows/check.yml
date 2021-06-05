@@ -3,7 +3,7 @@ name: dotfiles
 on: [push]
 
 jobs:
-  base:
+  install:
     runs-on: macOS-latest
     steps:
     - uses: actions/checkout@v2
@@ -12,7 +12,7 @@ jobs:
     - name: Prepare for CI
       run: |
         echo '' > zsh.sh
-        sed -i '' '/^mas/d' Brewfile
+        sed -i '' '/^mas/d' Brewfile */Brewfile
         rm '/usr/local/bin/aws' '/usr/local/bin/aws_completer' '/usr/local/bin/go' '/usr/local/bin/gofmt' ~/.gitconfig
     - name: Execute base install
       run:  ./install
