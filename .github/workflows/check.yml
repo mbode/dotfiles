@@ -13,7 +13,7 @@ jobs:
       run: |
         echo '' > zsh.sh
         sed -i '' '/^mas/d' Brewfile
-        rm '/usr/local/bin/aws' '/usr/local/bin/aws_completer' '/usr/local/bin/go' '/usr/local/bin/gofmt'
+        rm '/usr/local/bin/aws' '/usr/local/bin/aws_completer' '/usr/local/bin/go' '/usr/local/bin/gofmt' ~/.gitconfig
     - name: Execute base install
       run:  ./install
     - name: Execute work install
