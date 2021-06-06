@@ -1,14 +1,13 @@
-brew "tectonic"
 brew "youtube-dl"
-cask "adobe-digital-editions"
 cask "calibre"
-cask "cliqz"
 cask "dropbox"
-cask "electrum"
-cask "jdownloader"
 cask "ledger-live"
 cask "pdfsam-basic"
+mas "ifolor Designer", id: 446366603
 mas "Mimeo Photos", id: 1282504627
+mas "Motif", id: 1404636482
+mas "Pages", id: 409201541
 mas "WISO steuer 2016", id: 1008157506
 mas "WISO steuer 2017", id: 1127370416
 mas "WISO steuer 2018", id: 1252661390
+mas "WISO steuer: 2020", id: 1476374877
