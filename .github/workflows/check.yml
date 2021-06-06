@@ -18,3 +18,5 @@ jobs:
       run:  ./install
     - name: Execute work install
       run: ./install work
+    - name: Execute home install
+      run: ./install home
